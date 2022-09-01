@@ -1,0 +1,23 @@
+/*
+    Tipe Data Number
+    Pada bahasa pemrograman PHP terdapat 2 jenis tipe data number, yaitu :
+    1. (int) Bilangan bulat decimal (base10), hexadecimal (base 16), octa (base 8), binary (base 2)
+    2. (float) Bilangan Pecahan
+*/
+
+<?php
+    echo "Decimal"; //Bilangan berbasis 10, yang umumnya selalu digunakan
+    var_dump(1234);
+    
+    echo "Octal"; //Bilangan berbasis 8
+    var_dump(0123); // khusus untuk octal dimulai dari 0
+
+    echo "Hexadecimal"; //Bilangan berbasis 16
+    var_dump(0x1A);
+
+    echo "Binary"; //Bilangan berbasis 2
+    var_dump(0b111111); //bernilai "63" yang disusun dari binary
+
+    echo "Underscore in Number"; // underscore akan dihiraukan jika program dijalankan
+    var_dump(1_241_241_241);
+?>
