@@ -1,0 +1,13 @@
+<?php
+
+    // Dalam membuat suatu variable di dalam PHP 
+    // Kita bisa menggunakan $.
+    $name = "Abimanyu Luthfi Rizq Ramadhan";
+    $umur = 19;
+
+    echo "Perkenalkan nama saya : ";
+    echo $name; // untuk mencetak nilai yang disimpan pada variable name
+    echo "\n";
+    echo "Saat ini saya berumur : ";
+    echo $umur; // untuk mencetak nilai yang disimpan pada variable umur
+?>
