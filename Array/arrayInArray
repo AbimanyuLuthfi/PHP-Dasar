@@ -1,0 +1,17 @@
+<?php
+// Dalam PHP index suatu array dapat menampung array kembali
+// yaitu dengan membuat array di dalam suatu index,
+// bahkan dapat menerapkan maping di dalamnya.
+    $biodata = [
+        "namaDepan" => "Abimanyu luthfi",
+        "namaBelakang" => "Rizq Ramadhan",
+        "umur" => 19,
+        "alamat" => [
+            "kecamatan" => "Pondok Aren",
+            "kota" => "Tangerang Selatan"
+        ]
+    ];
+
+    var_dump($biodata["alamat"]["kota"]); // melakukan check pada nilai array yang terletak pada array biodata di index "alamat".
+    echo $biodata["alamat"]["kota"]; // mencetak nilai array yang terletak pada array biodata di index "alamat".
+?>
