@@ -8,4 +8,10 @@
 
     $result = a + b; // Operator Aritmatika penjumlahan
     var_dump($result);
+    
+    $resultNegative = -$result; // Operator aritmatika untuk mengubah nilai menjadi negative.
+    var_dump($resultNegative);
+    
+    $resultPositive = +$result; // Operator aritmatika untuk mengubah nilai menjadi Positive.
+    var_dump($resultPositive);
 ?>
