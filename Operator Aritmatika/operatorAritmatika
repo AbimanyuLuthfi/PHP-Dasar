@@ -14,4 +14,22 @@
     
     $resultPositive = +$result; // Operator aritmatika untuk mengubah nilai menjadi Positive.
     var_dump($resultPositive);
+    
+    $resultPengurangan = 10 - 5; // Operator yang digunakan untuk mengurangi suatu variable dengan variable lainnya.
+    var_dump($resultPengurangan);
+
+    $resultNegative = -$result; // Operator aritmatika untuk mengubah nilai menjadi negative.
+    var_dump($resultNegative);
+    
+    $resultPositive = +$result; // Operator aritmatika untuk mengubah nilai menjadi Positive.
+    var_dump($resultPositive);
+
+    $resultPerkalian = $a * $b; // Operator aritmatika yang digunakan untuk perkalian.
+    var_dump($resultPerkalian);
+
+    $resultPembagian = $a / $b; // Operator aritmatika yang digunakan untuk pembagian.
+    var_dump($resultPembagian);
+
+    $resultmodulo = 100 % 3; // Operator yang digunakan untuk mendapatkan nilai hasil bagi.
+    var_dump($resultmodulo);
 ?>
