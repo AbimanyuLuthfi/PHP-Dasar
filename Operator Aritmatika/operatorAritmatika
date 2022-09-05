@@ -1,0 +1,11 @@
+<?php
+    /*
+        Sama halnya dengan bahasa pemrograman lainnya. PHP juga memiliki berbagai operator Aritmatika
+        yang dapat digunakan dalam komputasi program.
+    */
+    $a = 20;
+    $b = 20;
+
+    $result = a + b; // Operator Aritmatika penjumlahan
+    var_dump($result);
+?>
